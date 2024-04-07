@@ -1,5 +1,7 @@
 package Kartoteki;
 
+import Osoba.Osoba;
+
 
 public class KartotekaMockup {
     public void Dodaj(Osoba os){
@@ -15,11 +17,11 @@ public class KartotekaMockup {
     }
     
     public boolean CzyZawiera(){
-        return;
+        return true;
     }
     
-    public int Pobierz(Osoba os){
-        return Osoba os;
+    public Osoba Pobierz(Osoba os){
+        return new Osoba("Gall", "Anonim");
     }
     
 }
