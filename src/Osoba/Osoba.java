@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Osoba;
 
-/**
- *
- * @author weron
- */
+
 public class Osoba {
+    private int[] tab;
+    private int ile;
+    private String imie;
+    private String nazwisko;
+    
+    public String getimie(){
+        return imie;
+    }
+    
+    public String getnazwisko(){
+        return nazwisko;
+    }
     
 }

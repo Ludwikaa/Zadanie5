@@ -1,13 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Kartoteki;
 
-/**
- *
- * @author weron
- */
+
 public class KartotekaMockup {
+    public void Dodaj(Osoba os){
+        
+    }
+    
+    public void Usun(Osoba os){
+        
+    }
+    
+    public int Rozmiar(){
+        return 1;
+    }
+    
+    public boolean CzyZawiera(){
+        return;
+    }
+    
+    public int Pobierz(Osoba os){
+        return Osoba os;
+    }
     
 }

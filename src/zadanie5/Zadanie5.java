@@ -1,15 +1,16 @@
 package zadanie5;
 
 import java.util.Scanner;
-import
 
 public class Zadanie5 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args){
+        KartotekaReal kart = new KartotekaReal();
+        
+        Osoba os1 = new Osoba();
+        Osoba os2 = new Osoba();
+        
+        kart.dodaj(new Osoba());
     }
     
 }
